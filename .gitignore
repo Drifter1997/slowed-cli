@@ -1,7 +1,8 @@
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 ENV/
+env/
 
 # Python cache and bytecode
 __pycache__/
@@ -12,6 +13,7 @@ __pycache__/
 # Temporary files and cache
 .tmp/
 *.tmp
+*.log
 
 # Audio exports and media files
 *.mp3
@@ -26,5 +28,9 @@ __pycache__/
 *.png
 *.webp
 
-# Logs
-*.log
+# Credentials and secrets protection
+.env
+.env.*
+*token*
+*secret*
+*cookie*
