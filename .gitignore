@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Temporary files and cache
+.tmp/
+*.tmp
+
+# Audio exports and media files
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.opus
+*.ogg
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Logs
+*.log
